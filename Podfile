@@ -5,12 +5,3 @@ target 'OneBusAway' do
 pod 'ParseUI'
 
 end
-
-target 'Versioning' do
-
-end
-
-target 'OneBusAway Tests' do
-
-end
-
