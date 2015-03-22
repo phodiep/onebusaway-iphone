@@ -30,6 +30,7 @@
 		1D6671421ABF297C00074518 /* OBAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6671411ABF297C00074518 /* OBAUser.m */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		406017FEFF7AC6B9A10828A7 /* libPods-OneBusAway.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B49523D96141EE60B33CE0F /* libPods-OneBusAway.a */; };
 		4E03F8C91ABE27420045AEF0 /* OBASubmitReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E03F8C71ABE27420045AEF0 /* OBASubmitReportViewController.m */; };
 		4E03F8CA1ABE27420045AEF0 /* OBASubmitReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E03F8C81ABE27420045AEF0 /* OBASubmitReportViewController.xib */; };
 		5ED30F451A9FB8C400CFC794 /* OBAURLHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F152FF1A9AE9740015C141 /* OBAURLHelpers.m */; };
@@ -252,6 +253,7 @@
 		0AEE27761ABEC560008F6FF7 /* OBAUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBAUserProfileViewController.h; sourceTree = "<group>"; };
 		0AEE27771ABEC560008F6FF7 /* OBAUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBAUserProfileViewController.m; sourceTree = "<group>"; };
 		0AEE27781ABEC560008F6FF7 /* OBAUserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBAUserProfileViewController.xib; sourceTree = "<group>"; };
+		0B49523D96141EE60B33CE0F /* libPods-OneBusAway.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneBusAway.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* OneBusAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneBusAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6671401ABF297C00074518 /* OBAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBAUser.h; sourceTree = "<group>"; };
@@ -263,6 +265,9 @@
 		4E03F8C61ABE27420045AEF0 /* OBASubmitReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBASubmitReportViewController.h; path = ../OBASubmitReportViewController.h; sourceTree = "<group>"; };
 		4E03F8C71ABE27420045AEF0 /* OBASubmitReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBASubmitReportViewController.m; path = ../OBASubmitReportViewController.m; sourceTree = "<group>"; };
 		4E03F8C81ABE27420045AEF0 /* OBASubmitReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OBASubmitReportViewController.xib; path = ../OBASubmitReportViewController.xib; sourceTree = "<group>"; };
+		64CBD64FF7B7A065D52AD3D5 /* Pods-OneBusAway.appstoredistribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBusAway.appstoredistribution.xcconfig"; path = "Pods/Target Support Files/Pods-OneBusAway/Pods-OneBusAway.appstoredistribution.xcconfig"; sourceTree = "<group>"; };
+		6C942FE601D249237F757177 /* Pods-OneBusAway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBusAway.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneBusAway/Pods-OneBusAway.debug.xcconfig"; sourceTree = "<group>"; };
+		72233F36AC628985F8C73A23 /* Pods-OneBusAway.adhocdistribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBusAway.adhocdistribution.xcconfig"; path = "Pods/Target Support Files/Pods-OneBusAway/Pods-OneBusAway.adhocdistribution.xcconfig"; sourceTree = "<group>"; };
 		727E52F415824F1200534646 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		923FE67E176082A7009AFDE8 /* UITableViewController+oba_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+oba_Additions.h"; sourceTree = "<group>"; };
@@ -578,6 +583,7 @@
 		B52BC5581AAD72E900ED319E /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
 		B52BC5591AAD72E900ED319E /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
 		B52BC55A1AAD72E900ED319E /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		BA01E036F4FD4F9C5E76FC24 /* Pods-OneBusAway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBusAway.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneBusAway/Pods-OneBusAway.release.xcconfig"; sourceTree = "<group>"; };
 		D6169A160FC228FB00631BCE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D61AC67B0F77E0F7006FA853 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D61E4E4E0FC2000D000C1782 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -624,6 +630,7 @@
 				D61E4E4F0FC2000D000C1782 /* MapKit.framework in Frameworks */,
 				9342B4221ABE646600A4C366 /* Bolts.framework in Frameworks */,
 				9342B4241ABE646700A4C366 /* ParseCrashReporting.framework in Frameworks */,
+				406017FEFF7AC6B9A10828A7 /* libPods-OneBusAway.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +693,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				D6575AEB0FEE13CF00D6D987 /* Entitlements.plist */,
+				BE8261FF17B483A16AAC4056 /* Pods */,
 			);
 			name = org.onebusaway.iphone;
 			sourceTree = "<group>";
@@ -734,6 +742,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				0B49523D96141EE60B33CE0F /* libPods-OneBusAway.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1313,6 +1322,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE8261FF17B483A16AAC4056 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C942FE601D249237F757177 /* Pods-OneBusAway.debug.xcconfig */,
+				BA01E036F4FD4F9C5E76FC24 /* Pods-OneBusAway.release.xcconfig */,
+				64CBD64FF7B7A065D52AD3D5 /* Pods-OneBusAway.appstoredistribution.xcconfig */,
+				72233F36AC628985F8C73A23 /* Pods-OneBusAway.adhocdistribution.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D61A66790FCDB155004D2E91 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -1353,11 +1373,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OneBusAway" */;
 			buildPhases = (
+				331C0A0E6C96888CD0408B6A /* Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				D6B74DF90F6CA5D80067D68F /* CopyFiles */,
 				E81C7AFE1824B7C80047C68C /* Remove infoplist.prefix preprocessor file from project temp directory */,
+				A75CD8943707F937795F0FFE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1469,6 +1491,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		331C0A0E6C96888CD0408B6A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		96C644841810B4EE0000EC49 /* Set preprocessor definition for current git commit short SHA with dirty inditicator (+) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1482,6 +1519,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\nsh \"${PROJECT_DIR}/scripts/setBuildVersion.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		A75CD8943707F937795F0FFE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneBusAway/Pods-OneBusAway-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E81C7AFD1824AE960047C68C /* Set bundle identifier based on current build configuration */ = {
@@ -1692,6 +1744,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C942FE601D249237F757177 /* Pods-OneBusAway.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1756,6 +1809,7 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA01E036F4FD4F9C5E76FC24 /* Pods-OneBusAway.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2054,6 +2108,7 @@
 		};
 		D6575AF60FEE8B0900D6D987 /* AdHocDistribution */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72233F36AC628985F8C73A23 /* Pods-OneBusAway.adhocdistribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2128,6 +2183,7 @@
 		};
 		D6BEE73F10474E58003655A1 /* AppStoreDistribution */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CBD64FF7B7A065D52AD3D5 /* Pods-OneBusAway.appstoredistribution.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
