@@ -814,8 +814,7 @@ static NSString *kOBASurveyURL = @"http://tinyurl.com/stopinfo";
     }
     else {
       
-        //this adds a swipe gesture on the table cell to report that bus is full
-      
+
         OBAArrivalAndDepartureV2 *pa = arrivals[indexPath.row];
         NSLog(@"%@", pa);
         OBAArrivalEntryTableViewCell *cell = [_arrivalCellFactory createCellForArrivalAndDeparture:pa];
