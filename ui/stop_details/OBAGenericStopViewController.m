@@ -868,7 +868,6 @@ static NSString *kOBASurveyURL = @"http://tinyurl.com/stopinfo";
         }];
       
       return cell;
-    
     }
 }
 
