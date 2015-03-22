@@ -30,6 +30,8 @@
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		4E03F8C91ABE27420045AEF0 /* OBASubmitReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E03F8C71ABE27420045AEF0 /* OBASubmitReportViewController.m */; };
 		4E03F8CA1ABE27420045AEF0 /* OBASubmitReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E03F8C81ABE27420045AEF0 /* OBASubmitReportViewController.xib */; };
+		4E0895BD1ABE7762009128E7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0895BC1ABE7762009128E7 /* Accounts.framework */; };
+		4E0895BF1ABE7768009128E7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0895BE1ABE7768009128E7 /* Social.framework */; };
 		5ED30F451A9FB8C400CFC794 /* OBAURLHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F152FF1A9AE9740015C141 /* OBAURLHelpers.m */; };
 		727E52F515824F1200534646 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727E52F415824F1200534646 /* MessageUI.framework */; };
 		923FE680176082A7009AFDE8 /* UITableViewController+oba_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 923FE67F176082A7009AFDE8 /* UITableViewController+oba_Additions.m */; };
@@ -257,6 +259,8 @@
 		4E03F8C61ABE27420045AEF0 /* OBASubmitReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBASubmitReportViewController.h; path = ../OBASubmitReportViewController.h; sourceTree = "<group>"; };
 		4E03F8C71ABE27420045AEF0 /* OBASubmitReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBASubmitReportViewController.m; path = ../OBASubmitReportViewController.m; sourceTree = "<group>"; };
 		4E03F8C81ABE27420045AEF0 /* OBASubmitReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OBASubmitReportViewController.xib; path = ../OBASubmitReportViewController.xib; sourceTree = "<group>"; };
+		4E0895BC1ABE7762009128E7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4E0895BE1ABE7768009128E7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		727E52F415824F1200534646 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		923FE67E176082A7009AFDE8 /* UITableViewController+oba_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+oba_Additions.h"; sourceTree = "<group>"; };
@@ -593,6 +597,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0895BF1ABE7768009128E7 /* Social.framework in Frameworks */,
+				4E0895BD1ABE7762009128E7 /* Accounts.framework in Frameworks */,
 				D6631B34104DC1BB001C7C90 /* SystemConfiguration.framework in Frameworks */,
 				9342B4301ABE64F000A4C366 /* StoreKit.framework in Frameworks */,
 				9342B42E1ABE64E700A4C366 /* Security.framework in Frameworks */,
@@ -708,6 +714,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E0895BE1ABE7768009128E7 /* Social.framework */,
+				4E0895BC1ABE7762009128E7 /* Accounts.framework */,
 				9342B42F1ABE64F000A4C366 /* StoreKit.framework */,
 				9342B42D1ABE64E700A4C366 /* Security.framework */,
 				9342B42B1ABE64C500A4C366 /* MobileCoreServices.framework */,
@@ -1693,6 +1701,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/Libraries/Parse",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1757,6 +1766,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/Libraries/Parse",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = org_onebusaway_iphone_Prefix.pch;
@@ -2054,6 +2064,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/Libraries/Parse",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = org_onebusaway_iphone_Prefix.pch;
@@ -2129,6 +2140,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/Libraries/Parse",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = org_onebusaway_iphone_Prefix.pch;
