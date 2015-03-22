@@ -24,6 +24,7 @@
 #import "OBASearchResultsMapFilterToolbar.h"
 #import "OBAMapRegionManager.h"
 #import "OBAScopeView.h"
+#import <ParseUI/ParseUI.h>
 
 @class OBASearchControllerImpl;
 

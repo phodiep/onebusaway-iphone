@@ -144,8 +144,11 @@ static NSString *kOBAIncreaseContrastKey = @"OBAIncreaseContrastDefaultsKey";
     [self.searchController cancelOpenConnections];
 }
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+
 
     self.networkErrorAlertViewDelegate = [[OBANetworkErrorAlertViewDelegate alloc] initWithContext:self.appDelegate];
 
@@ -299,6 +302,15 @@ static NSString *kOBAIncreaseContrastKey = @"OBAIncreaseContrastDefaultsKey";
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 
+  //Parse setup
+//  PFLogInViewController *loginController = [[PFLogInViewController alloc] init];
+//  loginController.delegate = self;
+//  loginController.fields = (PFLogInFieldsUsernameAndPassword | PFLogInFieldsLogInButton | PFLogInFieldsSignUpButton | PFLogInFieldsPasswordForgotten | PFLogInFieldsDismissButton | PFLogInFieldsFacebook | PFLogInFieldsTwitter);
+//  loginController.facebookPermissions = @[@"friends_about_me"];
+//  
+//  [self presentViewController:loginController animated:true completion:nil];
+
+  
     OBALocationManager *lm = self.appDelegate.locationManager;
     [lm addDelegate:self];
     [lm startUpdatingLocation];
@@ -328,6 +340,16 @@ static NSString *kOBAIncreaseContrastKey = @"OBAIncreaseContrastDefaultsKey";
     arrowButton.accessibilityLabel = NSLocalizedString(@"my location", @"arrowButton.accessibilityLabel");
     arrowButton.accessibilityHint = NSLocalizedString(@"centers the map on current location", @"arrowButton.accessibilityHint");
     return arrowButton;
+}
+
+#pragma mark - Parse Login Response Handling
+- (void)logInViewController:(PFLogInViewController *)controller
+               didLogInUser:(PFUser *)user {
+  [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)logInViewControllerDidCancelLogIn:(PFLogInViewController *)logInController {
+  [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - UISearchBarDelegate
